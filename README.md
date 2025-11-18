@@ -246,6 +246,16 @@ docker info
 - [Docker Compose Documentation](https://docs.docker.com/compose/)
 - [Docker Desktop Documentation](https://docs.docker.com/desktop/)
 
+## Author
+
+**Ali Mansouri**
+
+For consultation and service setup inquiries, please feel free to contact:
+
+- 📧 Email: [ali.mansouri1998@gmail.com](mailto:ali.mansouri1998@gmail.com)
+- 📧 Email: [a.mansouri@khu.ac.ir](mailto:a.mansouri@khu.ac.ir)
+- 💼 LinkedIn: [Ali Mansouri](https://www.linkedin.com/in/ali-mansouri-a7984215b/)
+
 ## License
 
 This guide is provided as-is for educational purposes.
