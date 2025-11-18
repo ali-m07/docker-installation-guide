@@ -11,12 +11,15 @@ A comprehensive guide for installing Docker on macOS, Linux, and Windows with si
   - [Linux](#linux)
   - [Windows](#windows)
 - [Verification](#verification)
+- [Next Steps: Install n8n](#next-steps-install-n8n)
 - [Troubleshooting](#troubleshooting)
 - [Additional Resources](#additional-resources)
 
 ## Overview
 
 Docker is a platform for developing, shipping, and running applications using containerization. This repository provides simple, step-by-step installation instructions for Docker on different operating systems.
+
+> 💡 **After installing Docker**, check out our [n8n setup guide](https://github.com/ali-m07/n8n) to automate workflows and tasks with ease!
 
 ## Quick Installation
 
@@ -212,6 +215,69 @@ docker run hello-world
 # Check Docker daemon status
 docker info
 ```
+
+## Next Steps: Install n8n 🚀
+
+Now that Docker is installed, you can easily set up **n8n** - a powerful workflow automation tool!
+
+### What is n8n?
+
+n8n is a free and open-source workflow automation tool that allows you to:
+- 🤖 Automate tasks and workflows
+- 🔗 Connect different services and APIs
+- 📅 Schedule automated jobs
+- 🔄 Create complex automation workflows
+- 💼 Perfect for LinkedIn automation, data processing, and more!
+
+### Quick Start with n8n
+
+**Ready to automate?** Check out our comprehensive n8n setup guide:
+
+👉 **[n8n Free Setup Repository](https://github.com/ali-m07/n8n)**
+
+#### Super Quick Installation (After Docker is installed):
+
+```bash
+# Clone the n8n repository
+git clone https://github.com/ali-m07/n8n.git
+cd n8n
+
+# Start n8n with Docker Compose (super easy!)
+docker-compose up -d
+
+# That's it! 🎉 n8n is now running on http://localhost:13000
+```
+
+**Default credentials:**
+- Username: `admin`
+- Password: `changeme`
+
+#### What's Included in the n8n Repository?
+
+- ✅ **Complete Docker setup** - One command to run everything
+- ✅ **Free hosting options** - n8n Cloud, Oracle Cloud, and more
+- ✅ **LinkedIn automation guides** - Step-by-step tutorials
+- ✅ **Multiple deployment methods** - Choose what works best for you
+- ✅ **Production-ready configuration** - Secure and optimized
+
+#### Why Use n8n?
+
+- 🆓 **100% Free** - Open source with free cloud tier available
+- 🚀 **Easy Setup** - Works perfectly with Docker
+- 🔌 **1000+ Integrations** - Connect to almost any service
+- 📊 **Visual Workflow Builder** - No coding required
+- ⚡ **Powerful Automation** - Handle complex workflows easily
+
+**Perfect for:**
+- Social media automation (LinkedIn, Twitter, etc.)
+- Data processing and ETL workflows
+- API integrations
+- Scheduled tasks and notifications
+- Business process automation
+
+👉 **[Get Started with n8n →](https://github.com/ali-m07/n8n)**
+
+---
 
 ## Troubleshooting
 
